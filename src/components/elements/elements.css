@@ -1,0 +1,17 @@
+.serviceBox {
+  display: flex;
+  border: 1px solid silver;
+  margin-bottom: 5px;
+}
+
+.serviceBox__img {
+  width: 20%;
+  padding: 10px;
+}
+
+.serviceBox__text {
+  width: 80%;
+  padding: 3px;
+  font-weight: 700;
+  font-size: 13px;
+}

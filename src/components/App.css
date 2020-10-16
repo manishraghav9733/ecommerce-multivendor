@@ -1,0 +1,127 @@
+@import "~antd/dist/antd.css";
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa500;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8c00;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: #d8e3e8;
+  height: 46px;
+  line-height: 45px;
+}
+
+.top-menu-items {
+  font-size: 12px;
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+.menu-item-icon {
+  color: #ff7f18;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: silver;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.admin-sider {
+  min-width: 255px !important;
+  max-width: 255px;
+  width: 255px;
+  height: 100vh;
+}
+
+.fruit h4,
+.Electronic h4,
+.Grocery h4,
+.Cloth h4,
+.Gadgets h4 {
+  margin-top: 15%;
+}
+.login-form-btn {
+  background: rgb(69, 171, 103);
+  border-color: rgb(49, 181, 171);
+  width: 85%;
+  font-size: 110%;
+  height: 53px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+  padding: 9px 0;
+  line-height: 22px;
+  position: relative;
+}
+.deals {
+  text-align: center;
+}
+.addcart {
+  margin-top: 3%;
+  background: #45ab67;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background: #222;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+}
+.addcart:hover {
+  background: #398e55;
+  color: #fff;
+}
+
+.top__right__logout {
+  width: 48%;
+}
+
+.top__bar__info {
+  width: 48%;
+}
+
+.top__right__logout__btn {
+  float: right;
+}
+
+@media screen and (max-width: 900px) {
+  .top__bar__info {
+    display: none;
+  }
+
+  .top__right__logout {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top__right__logout__btn {
+    float: none;
+  }
+}

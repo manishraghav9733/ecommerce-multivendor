@@ -1,0 +1,82 @@
+.banner__name {
+  font-size: 2.6em;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ProductTitle {
+  margin-bottom: 30px;
+  color: #45ab67;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+  padding: 22px 0px 0px 30px;
+}
+
+.productContainer {
+  display: flex;
+  padding: 15px;
+}
+
+.productContainer__images {
+  width: 55%;
+}
+
+.productContainer__discription {
+  width: 40%;
+  padding: 30px;
+}
+
+.productContainer__imageContainer {
+  display: flex;
+}
+
+.productContainer__leftImage {
+  width: 30%;
+}
+
+.productContainer__leftImage img {
+  width: 115px;
+  object-fit: contain;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.productContainer__leftImage img:hover {
+  border: 2px solid #45ab67;
+}
+
+.productContainer__rightImage {
+  width: 60%;
+  margin-left: 30px;
+}
+
+.productContainer__rightImage img {
+  width: 350px;
+}
+
+.product__price__fixed {
+  color: #45ab67;
+  font-weight: 900;
+  font-size: 1.9em;
+}
+
+.description__withoutLabel {
+  background: #fff !important;
+  border-right: 0px solid #fff !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .productContainer {
+    flex-flow: column;
+  }
+
+  .productContainer__images {
+    width: 100%;
+  }
+
+  .productContainer__discription {
+    width: 100%;
+  }
+}

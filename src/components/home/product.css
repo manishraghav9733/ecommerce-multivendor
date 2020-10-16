@@ -1,0 +1,27 @@
+.product__name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.product__card {
+  position: relative;
+}
+
+.product__discount__header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff;
+  background: #f16f6c;
+}
+
+.product__price__fixed {
+  color: #45ab67;
+  font-weight: 700;
+  font-size: 1.4em;
+}
